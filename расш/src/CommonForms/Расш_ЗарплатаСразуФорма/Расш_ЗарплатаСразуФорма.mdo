@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="770aad44-f817-4577-aaf5-016cc80cdb96">
+  <name>Расш_ЗарплатаСразуФорма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки сервиса Зарплата сразу</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

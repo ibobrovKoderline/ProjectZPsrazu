@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27d2759b-499f-4229-b2c4-561d44dab8bf">
+  <name>Расш_ЗарплатаСразуОсновнаяРоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администратор зарплата сразу</value>
+  </synonym>
+  <comment>Права для настроек сервиса зарплата сразу</comment>
+</mdclass:Role>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="816b5838-6f5c-43f1-902f-9cdb891834dd" extendedConfigurationObject="b8a966ba-3452-44df-91d0-7040ecd3e4c2">
+  <producedTypes>
+    <objectType typeId="c3e522fc-39f8-4ef1-82a8-a88b8dcb62a7" valueTypeId="20611155-a072-4cdc-8093-1227af0f57f8"/>
+    <refType typeId="790dd98f-2e1f-4274-a0bc-38580e0db2da" valueTypeId="5e06c84b-809f-4522-86b6-c3c90a3f1f13"/>
+    <selectionType typeId="f2c1b8d8-3866-4b48-9b3b-87d3c57be5bf" valueTypeId="323ee44f-3fce-42de-924f-0547ee7b9a09"/>
+    <listType typeId="6ce21d16-7e3b-4408-b6a8-12c6fc21ea64" valueTypeId="1c2a85a7-bd5a-43e5-9d2b-0dc5fbfa3e2a"/>
+    <managerType typeId="a05f5a72-72c4-455d-a6f6-8762da0989b4" valueTypeId="1465aaa6-c7cd-4dfd-9c2c-da26858cd951"/>
+  </producedTypes>
+  <name>Организации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="d697caca-c624-4e96-82fb-46b55e7f3a43" extendedConfigurationObject="9a4098b9-639a-42f1-8113-779c62420e46">
+    <name>ИНН</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6c31abfc-d416-41c8-b105-5a903eccebc4" extendedConfigurationObject="0b153de3-87fe-4907-9e94-8556af48fda2">
+    <name>НаименованиеПолное</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="ec166c67-3f98-440a-ae38-561ccef9a84f" extendedConfigurationObject="1a2fdd27-2959-4e3e-9039-80e8cebcf1e2">
+    <name>ОГРН</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

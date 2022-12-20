@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="750a3888-e3b8-4c1c-9800-ec0ac7ed0a7c">
+  <name>РасшЗарплатаСразу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расш зарплата сразу</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="18e684f8-b39b-4d53-874d-828af2ae2812"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d29d133a-df03-40ca-8a83-a346ca03e9fa"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="62d8bf8a-b776-4c5c-89a4-70113b6a1645"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="32975545-e710-4807-b146-4bf34d5ecde8"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d0c04b13-9f70-4e8a-873a-3692ed927c3f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7ad6ddbe-59eb-4565-9f6b-44bf36686595"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7055abde-9a48-4b9d-93b5-0b96550db9d7"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Расш_ЗарплатаСразу</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Расш_ЗарплатаСразуОсновнаяРоль</defaultRoles>
+  <version>1.0</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="c5daf03f-c31e-4376-8838-5dbcce9cae86" extendedConfigurationObject="6ec41672-ca59-40aa-a4cf-3fef74cdc3c6">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.Расш_ЗарплатаСразуОсновнаяРоль</roles>
+  <commonForms>CommonForm.Расш_ЗарплатаСразуФорма</commonForms>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <informationRegisters>InformationRegister.Расш_ЗарплатаСразуРегистрСведенийНастройки</informationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3523d4ac-f886-4ba4-9f54-ddd3d686d24c">
+  <producedTypes>
+    <selectionType typeId="2ccce20d-2114-452b-a77e-84031c9e229b" valueTypeId="49fdca56-aefc-427a-93af-df7f150101c1"/>
+    <listType typeId="f6e5e566-5151-4559-a5b0-4700c9bc13fb" valueTypeId="f3257f34-f6e2-4e76-8017-d323f29fed78"/>
+    <managerType typeId="a2f734f8-c8fd-4d90-a0a4-7feca695dcea" valueTypeId="b0df5916-2ec0-4735-bb8a-7dca29f643f4"/>
+    <recordSetType typeId="849bd692-1c46-4ee7-aa54-616363cbb633" valueTypeId="00ac4bd7-7ad0-40b4-b32a-a91efac78867"/>
+    <recordKeyType typeId="d4a74849-e74a-437e-9007-363bf86aa077" valueTypeId="8fcc3bf9-cc46-4ad5-bb1d-ff26be3fafac"/>
+    <recordType typeId="652ae450-0bc4-46e5-a839-491321b217a6" valueTypeId="da43d5c4-6b11-40c0-b8ae-6815b18c5e88"/>
+    <recordManagerType typeId="ae300e95-e9da-4be0-ba11-2e4f77a64661" valueTypeId="c9b489e7-3a34-4c55-ab51-f07a959615a6"/>
+  </producedTypes>
+  <name>Расш_ЗарплатаСразуРегистрСведенийНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расш зарплата сразу регистр сведений настройки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Расш_ЗарплатаСразуРегистрСведенийНастройки.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f09708e6-4567-4a37-a9d2-71947c92c60c">
+    <name>ЛимитПлатежаСАвтоакцептом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит платежа с автоакцептом</value>
+    </synonym>
+    <comment>Лимит платежа с автоакцептом</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="55ddc430-d1ac-4472-a8a7-16b9c77f2e1d">
+    <name>ЛимитПлатежаСРучнымСогласованием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит платежа с ручным согласованием</value>
+    </synonym>
+    <comment>Лимит платежа с ручным согласованием</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="54c147ff-b14d-4ee5-bfd0-4790ef2f847f">
+    <name>МаксимальноДопустимаяКСнятиюСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимально допустимая к снятию сумма по всем сотрудникам (месяц)</value>
+    </synonym>
+    <comment>Максимально допустимая к снятию сумма по всем сотрудникам (месяц)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fc31000e-92d8-427f-8c8a-d6ac80f4f4f8">
+    <name>ПрофильГруппДоступаРасчетчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль групп доступа расчетчик для уведомлений</value>
+    </synonym>
+    <comment>Профиль групп доступа расчетчик для уведомлений</comment>
+    <type>
+      <types>CatalogRef.ПрофилиГруппДоступа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="100c26c6-0dcd-4cac-9145-dc758f92f175">
+    <name>ПрофильГруппДоступаСтаршийРасчетчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль групп доступа старший расчетчик для уведомлений</value>
+    </synonym>
+    <comment>Профиль групп доступа старший расчетчик для уведомлений</comment>
+    <type>
+      <types>CatalogRef.ПрофилиГруппДоступа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e0fbfc10-4c3c-4857-a157-55ddb698974f">
+    <name>КоличествоДнейДляУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней для уведомления старшего расчетчика</value>
+    </synonym>
+    <comment>Количество дней через сколько необходимо уведомлять старшего расчетчика, если ведомость не согласована.</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c44b966f-ef95-4833-b4a3-ce32993f04bf">
+    <name>АдминистраторРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор расширения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="35c88197-dee9-4b2e-bceb-e527b257d37b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f712ad3a-fe7f-453c-afd6-a8ba404ef96d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
